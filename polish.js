@@ -38,7 +38,7 @@ const operators = {
 } 
 
 async function calculator(){
-  const arr = expretion.value.split("");
+  const arr = expretion.value.split(" ");
   const stack = [];
   console.log(arr);
     for (const item of arr) {
