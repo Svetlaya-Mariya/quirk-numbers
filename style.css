@@ -1,0 +1,40 @@
+* {
+  background-color: #f5eedc;
+  font-size: 16pt;
+}
+main {
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  margin: 50px auto;
+}
+div {
+  border: 5px double #8dc1b4;
+  width: 45%;
+  padding: 20px;
+}
+input {
+  height: 30px;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  padding: 3px;
+  background-color: #8dc1b4;
+  color: #f5eedc;
+}
+button {
+  height: 35px;
+  width: 100px;
+  background-color: #dd4a48;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  color: #f5eedc;
+}
+button:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+}
+p {
+  color: #dd4a48;
+}
